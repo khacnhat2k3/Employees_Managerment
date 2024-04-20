@@ -84,7 +84,7 @@
                   <Font name="System Bold" size="20.0" />
                </font>
             </Button>
-            <Button fx:id="menu_logout" layoutX="10.0" layoutY="505.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="250.0" styleClass="cs-button" stylesheets="@styles.css" text="LOGOUT" textFill="#5e7ff1">
+            <Button fx:id="menu_logout" layoutX="10.0" layoutY="505.0" mnemonicParsing="false" onAction="#logout" prefHeight="62.0" prefWidth="250.0" styleClass="cs-button" stylesheets="@styles.css" text="LOGOUT" textFill="#5e7ff1">
                <graphic>
                   <FontAwesomeIcon fill="#5e7ff1" glyphName="SIGN_OUT" selectionEnd="0" size="25" />
                </graphic>
